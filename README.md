@@ -10,7 +10,7 @@ It follows a **two-server architecture** — one for Jenkins (automation) and on
 | Server Role | Description | Tools/Software | Purpose |
 |--------------|-------------|----------------|----------|
 | 🧩 **Jenkins Server** | CI/CD automation | Jenkins, Maven, Java 17 | Pulls code from GitHub, builds using Maven, and deploys to remote Tomcat server |
-| 🚀 **Deployment Server** | Web app hosting | Apache Tomcat 9, Java 17 | Hosts the built `.war` file from Jenkins for public access |
+| 🚀 **Deployment Server** | Web app hosting | Apache Tomcat 10, Java 17 | Hosts the built `.war` file from Jenkins for public access |
 
 
 ![A](Images/Diagram.png)
@@ -139,7 +139,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/iam-ganeshjadhav/Student-Registration-java-form-using-jenkins-maven.git'
+                git branch: 'main', url: 'https://github.com/Adiii-AJ/Student_App_Page.gitt'
             }
         }
 

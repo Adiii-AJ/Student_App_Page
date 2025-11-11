@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/iam-ganeshjadhav/Student-Registration-java-form-using-jenkins-maven.git'
+                git branch: 'main', url: 'https://github.com/Adiii-AJ/Student_App_Page.git'
             }
         }
 
